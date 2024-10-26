@@ -43,4 +43,12 @@ class ItemEditViewModel(
             name.isNotBlank() && price.isNotBlank() && quantity.isNotBlank()
         }
     }
+
+    fun updateItem() {
+
+    }
+
+    fun updateUiState(itemDetails: ItemDetails) {
+
+    }
 }
